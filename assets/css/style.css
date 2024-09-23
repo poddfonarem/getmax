@@ -582,7 +582,7 @@ body {
     color: #fff
 }
 
-.work-request input[type="submit"] {
+.work-request input[type="button"] {
     width: 400px;
     max-width: 100%;
     line-height: 50px;
@@ -594,8 +594,20 @@ body {
     border-radius: 0
 }
 
-.work-request .whatsapp {
-    background-color: #25d366!important;
+.work-request input[type="button"]:focus {
+    outline: none
+}
+
+.work-request input[type="submit"] {
+    width: 400px;
+    max-width: 100%;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #25d366;
+    border: none;
+    border-radius: 0
 }
 
 .work-request input[type="submit"]:focus {
